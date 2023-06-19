@@ -69,6 +69,25 @@ body {
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
+
+
+
+@media (max-width: 1366px) {
+  .bc-1 {
+  display: flex;
+  width: 460px;
+}
+}
+@media (max-width: 400px) {
+  .bc-1 {
+  display: flex;
+  width: 340px;
+  margin: auto;
+}
+}
+
+
+
 .h-right{
   display: flex;
   margin-right: 20px;
